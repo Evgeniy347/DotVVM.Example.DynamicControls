@@ -1,0 +1,8 @@
+﻿@viewModel DotVVM.Example.DynamicControls.Examples.ViewModels.SimpleSubmitViewModel, DotVVM.Example.DynamicControls,Version=4.0.0.0,Culture=neutral,PublicKeyToken=9f4da00116c38ec5
+@masterPage Examples/Views/Site.dotmaster
+
+<dot:Content ContentPlaceHolderID="MainContent">
+
+
+</dot:Content>
+

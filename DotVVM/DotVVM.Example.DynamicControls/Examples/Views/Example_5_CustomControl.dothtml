@@ -1,0 +1,45 @@
+﻿@viewModel DotVVM.Example.DynamicControls.Examples.ViewModels.Example_5_CustomControlViewModel, DotVVM.Example.DynamicControls,Version=4.0.0.0,Culture=neutral,PublicKeyToken=9f4da00116c38ec5
+@masterPage Examples/Views/Site.dotmaster
+
+<dot:Content ContentPlaceHolderID="MainContent">
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <td colspan="2" style="width: 500px;">
+                5. Сделать аналог ascx-контрола -  в нём должен содержаться текст-бокс. Добавить на страницу одну submit-кнопку и 2 одинаковых экземпляра этого контрола. При нажатии на кнопку в серверном коде каждого контрола считать значение текст бокса и вывести его в отдельный div. Ключевое, что name текст-боксов для чтения их значений с формы на сервере должно быть разным для каждого экземпляра. Наши существующие ascx-контролы не содержат все сабмит-контролов, поэтому определение того, по какой кнопке был выполнен сабмит и соответствующего ему серверного действия требуется определять только на уровне страницы.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                CustomControl1
+            </td>
+            <td>
+                <cc:CustomControl DataContext="{value: CustomControl1}" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                CustomControl2
+            </td>
+            <td>
+                <cc:CustomControl DataContext="{value: CustomControl2}" />
+            </td>
+        </tr> 
+        <tr>
+            <td>
+                ButtonSave
+            </td>
+            <td>
+                <dot:Button Click="{command: SaveValue()}" Text="Save" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Literal
+            </td>
+            <td>
+                <dot:Literal Text="{value: LiteralText}" />
+            </td>
+        </tr>
+    </table>
+</dot:Content>
+

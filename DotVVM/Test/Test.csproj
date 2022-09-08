@@ -83,7 +83,7 @@
     <Analyzer Include="..\packages\DotVVM.4.0.7\analyzers\dotnet\cs\DotVVM.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WSSC.V4.SYS.DotVVMReference\DotVVM.Example.DynamicControls.csproj">
+    <ProjectReference Include="..\DotVVM.Example.DynamicControls\DotVVM.Example.DynamicControls.csproj">
       <Project>{ac9a38a1-afc7-4f00-b5fb-32decb5eaaea}</Project>
       <Name>DotVVM.Example.DynamicControls</Name>
     </ProjectReference>

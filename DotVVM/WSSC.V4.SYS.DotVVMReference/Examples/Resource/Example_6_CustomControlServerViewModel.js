@@ -1,3 +1,0 @@
-﻿function testInvokeFile() {
-    alert('testInvokeFile');
-}

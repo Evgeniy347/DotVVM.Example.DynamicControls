@@ -1,8 +1,0 @@
-﻿@viewModel WSSC.V4.SYS.DotVVMReference.Examples.ViewModels.SimpleSubmitViewModel, WSSC.V4.SYS.DotVVMReference,Version=4.0.0.0,Culture=neutral,PublicKeyToken=9f4da00116c38ec5
-@masterPage Examples/Views/Site.dotmaster
-
-<dot:Content ContentPlaceHolderID="MainContent">
-
-
-</dot:Content>
-

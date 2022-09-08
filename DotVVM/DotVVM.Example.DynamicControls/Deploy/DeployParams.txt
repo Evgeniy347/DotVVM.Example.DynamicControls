@@ -1,0 +1,59 @@
+﻿.OPTION EXPLICIT
+.Set CabinetNameTemplate=DotVVM.Example.DynamicControls.wsp
+.set DiskDirectoryTemplate=CDROM
+.Set CompressionType=MSZIP
+.Set UniqueFiles="ON"
+.Set Cabinet=on
+.Set DiskDirectory1=.
+
+
+.Set CabinetFileCountThreshold=0
+.Set FolderFileCountThreshold=0
+.Set FolderSizeThreshold=0
+.Set MaxCabinetSize=0
+.Set MaxDiskFileCount=0
+.Set MaxDiskSize=0
+
+
+..\Types_DotVVM.Example.DynamicControls.xml					LAYOUTS\WSS\DBF\Types\Types_DotVVM.Example.DynamicControls.xml
+..\bin\DotVVM.Example.DynamicControls.dll
+
+Manifest.xml
+..\Refs\Antlr3.Runtime.dll
+..\Refs\Ben.Demystifier.dll				
+..\Refs\DotVVM.Core.dll					
+..\Refs\DotVVM.Framework.dll					
+..\Refs\DotVVM.Framework.Hosting.Owin.dll					
+..\Refs\EntityFramework.dll					
+..\Refs\EntityFramework.SqlServer.dll					
+..\Refs\Microsoft.CodeAnalysis.CSharp.dll					
+..\Refs\Microsoft.CodeAnalysis.dll					
+..\Refs\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll					
+..\Refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll					
+..\Refs\Microsoft.Extensions.DependencyInjection.dll					
+..\Refs\Microsoft.Extensions.Options.dll					
+..\Refs\Microsoft.Extensions.Primitives.dll					
+..\Refs\Microsoft.Owin.dll					
+..\Refs\Microsoft.Owin.Host.SystemWeb.dll					
+..\Refs\Microsoft.Owin.Security.dll					
+..\Refs\Newtonsoft.Json.Bson.dll					
+..\Refs\Newtonsoft.Json.dll					
+..\Refs\Owin.dll					
+..\Refs\System.Collections.Immutable.dll					
+..\Refs\System.Linq.dll					
+..\Refs\System.Linq.Expressions.dll					
+..\Refs\System.Reflection.dll					
+..\Refs\System.Reflection.Metadata.dll					
+..\Refs\System.Runtime.dll					
+..\Refs\System.Runtime.Extensions.dll					
+..\Refs\System.ValueTuple.dll					
+ 
+..\Examples\Views\Example_1_TestControlPage.dothtml					LAYOUTS\WSS\DotVVM.Example.DynamicControls\Examples\Views\Example_1_TestControlPage.dothtml
+..\Examples\Views\Example_2_TwoButtons.dothtml					LAYOUTS\WSS\DotVVM.Example.DynamicControls\Examples\Views\Example_2_TwoButtons.dothtml
+..\Examples\Views\Example_3_ComboBox.dothtml					LAYOUTS\WSS\DotVVM.Example.DynamicControls\Examples\Views\Example_3_ComboBox.dothtml
+..\Examples\Views\Site.dotmaster					LAYOUTS\WSS\DotVVM.Example.DynamicControls\Examples\Views\Site.dotmaster 
+..\Examples\Controls\CustomControl.dotcontrol					LAYOUTS\WSS\DotVVM.Example.DynamicControls\Examples\Controls\CustomControl.dotcontrol
+..\Examples\Views\Example_5_CustomControl.dothtml					LAYOUTS\WSS\DotVVM.Example.DynamicControls\Examples\Views\Example_5_CustomControl.dothtml
+..\Examples\Resource\Example_6_CustomControlServerViewModel.js					LAYOUTS\WSS\DotVVM.Example.DynamicControls\Examples\Resource\Example_6_CustomControlServerViewModel.js
+..\Examples\Views\Example_6_CustomControlServer.dothtml					LAYOUTS\WSS\DotVVM.Example.DynamicControls\Examples\Views\Example_6_CustomControlServer.dothtml
+..\Examples\Views\Example_7_RenderControl.dothtml					LAYOUTS\WSS\DotVVM.Example.DynamicControls\Examples\Views\Example_7_RenderControl.dothtml
