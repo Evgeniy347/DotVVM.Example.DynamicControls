@@ -89,111 +89,104 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Ben.Demystifier">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\Ben.Demystifier.dll</HintPath>
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="DotVVM.Core">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\DotVVM.Core.dll</HintPath>
+    <Reference Include="Ben.Demystifier, Version=0.1.0.0, Culture=neutral, PublicKeyToken=a6d206e05440431a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\Ben.Demystifier.dll</HintPath>
     </Reference>
-    <Reference Include="DotVVM.Framework">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\DotVVM.Framework.dll</HintPath>
+    <Reference Include="DotVVM.Core, Version=3.0.0.0, Culture=neutral, PublicKeyToken=23f3607db32275da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\DotVVM.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DotVVM.Framework.Hosting.Owin">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\DotVVM.Framework.Hosting.Owin.dll</HintPath>
+    <Reference Include="DotVVM.Framework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=23f3607db32275da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\DotVVM.Framework.dll</HintPath>
     </Reference>
-    <Reference Include="FastExpressionCompiler">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\FastExpressionCompiler.dll</HintPath>
+    <Reference Include="DotVVM.Framework.Hosting.Owin, Version=3.0.0.0, Culture=neutral, PublicKeyToken=23f3607db32275da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\DotVVM.Framework.Hosting.Owin.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.AspNet.SignalR.Core">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+    <Reference Include="DotVVM.Utils.HtmlElements, Version=4.0.5.0, Culture=neutral, PublicKeyToken=77e8efd43b7ae75f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\DotVVM.Utils.HtmlElements.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.AspNet.SignalR.SystemWeb">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeAnalysis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\Microsoft.CodeAnalysis.dll</HintPath>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\Microsoft.CodeAnalysis.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeAnalysis.CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.DotNet.PlatformAbstractions">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\Microsoft.DotNet.PlatformAbstractions.dll</HintPath>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=3.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Extensions.DependencyInjection">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\Microsoft.Extensions.DependencyInjection.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Extensions.DependencyModel">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\Microsoft.Extensions.DependencyModel.dll</HintPath>
+    <Reference Include="Microsoft.Extensions.Options, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\Microsoft.Extensions.Options.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Extensions.Options">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\Microsoft.Extensions.Options.dll</HintPath>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\Microsoft.Extensions.Primitives.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Extensions.Primitives">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\Microsoft.Extensions.Primitives.dll</HintPath>
+    <Reference Include="Microsoft.Owin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\Microsoft.Owin.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Net.Http.Headers">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\Microsoft.Net.Http.Headers.dll</HintPath>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Owin">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\Microsoft.Owin.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.FileSystems">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\Microsoft.Owin.FileSystems.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Host.SystemWeb">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\Microsoft.Owin.Security.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.StaticFiles">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\Microsoft.Owin.StaticFiles.dll</HintPath>
+    <Reference Include="Microsoft.Owin.Security, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\Microsoft.Owin.Security.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json.Bson">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\Newtonsoft.Json.Bson.dll</HintPath>
-    </Reference>
-    <Reference Include="Owin">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\Owin.dll</HintPath>
-    </Reference>
-    <Reference Include="RecordException">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\RecordException.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+    <Reference Include="Newtonsoft.Json.Bson, Version=1.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\System.Buffers.dll</HintPath>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\Newtonsoft.Json.Bson.dll</HintPath>
     </Reference>
-    <Reference Include="System.Collections.Immutable, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\System.Collections.Immutable.dll</HintPath>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\Owin.dll</HintPath>
     </Reference>
-    <Reference Include="System.Collections.Specialized" />
-    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+    <Reference Include="System.Collections.Immutable, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\System.Numerics.Vectors.dll</HintPath>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\System.Collections.Immutable.dll</HintPath>
     </Reference>
-    <Reference Include="System.Reflection.Metadata">
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\System.Reflection.Metadata.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+    <Reference Include="System.Linq" />
+    <Reference Include="System.Linq.Expressions" />
+    <Reference Include="System.Reflection" />
+    <Reference Include="System.Reflection.Metadata, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>..\DotVVM.Example.DynamicControls\Refs\System.Reflection.Metadata.dll</HintPath>
     </Reference>
-    <Reference Include="System.Security.Claims" />
-    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\WSSC.V4.SYS.DotVVMReference\Refs\System.Threading.Tasks.Extensions.dll</HintPath>
-    </Reference>
+    <Reference Include="System.Runtime" />
+    <Reference Include="System.Runtime.Extensions" />
     <Reference Include="System.ValueTuple" />
-    <Reference Include="System.Web" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

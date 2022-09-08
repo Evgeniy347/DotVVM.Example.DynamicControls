@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DotVVM.Example.DynamicControls.Examples.Controls;
+using System.Web.Hosting;
 
 namespace DotVVM.Example.DynamicControls.Examples.Model
 {
@@ -21,7 +22,7 @@ namespace DotVVM.Example.DynamicControls.Examples.Model
                 {
                     if (_instance == null)
                     {
-                        string folder = "C:\\Users\\GTR\\Desktop\\По работе\\DotVVM\\lists";
+                        string folder = Path.Combine(HostingEnvironment.ApplicationPhysicalPath, "..\\lists");
                         string[] files = Directory.GetFiles(folder, "*.csv");
                         FileSite fileSite = new FileSite();
                         fileSite.Lists = new Dictionary<string, FileList>(files.Length);
