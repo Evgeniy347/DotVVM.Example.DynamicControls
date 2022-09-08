@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Solution xmlns='http://schemas.microsoft.com/sharepoint/' SolutionId='a35ada3c-320d-47bb-a3f6-8ca12a87d7b4'>
+	<Assemblies>
+		<Assembly Location="WSSC.V4.SYS.DotVVMReference.dll" DeploymentTarget='GlobalAssemblyCache'></Assembly>
+		<Assembly Location="Antlr3.Runtime.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="Ben.Demystifier.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="DotVVM.Core.dll" DeploymentTarget="WebApplication"></Assembly>
+		<Assembly Location="DotVVM.Framework.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="DotVVM.Framework.Hosting.Owin.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="EntityFramework.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="EntityFramework.SqlServer.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="Microsoft.CodeAnalysis.CSharp.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="Microsoft.CodeAnalysis.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="Microsoft.Extensions.DependencyInjection.Abstractions.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="Microsoft.Extensions.DependencyInjection.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="Microsoft.Extensions.Options.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="Microsoft.Extensions.Primitives.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="Microsoft.Owin.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="Microsoft.Owin.Host.SystemWeb.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="Microsoft.Owin.Security.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="Newtonsoft.Json.Bson.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="Newtonsoft.Json.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="Owin.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="System.Collections.Immutable.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="System.Linq.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="System.Linq.Expressions.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="System.Reflection.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="System.Reflection.Metadata.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="System.Runtime.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="System.Runtime.Extensions.dll" DeploymentTarget='WebApplication'></Assembly>
+		<Assembly Location="System.ValueTuple.dll" DeploymentTarget='WebApplication'></Assembly>
+	</Assemblies>
+	<TemplateFiles> 
+		<TemplateFile Location='LAYOUTS\WSS\WSSC.V4.SYS.DotVVMReference\Examples\Views\Example_1_TestControlPage.dothtml'/>
+		<TemplateFile Location='LAYOUTS\WSS\WSSC.V4.SYS.DotVVMReference\Examples\Views\Example_2_TwoButtons.dothtml'/>
+		<TemplateFile Location='LAYOUTS\WSS\WSSC.V4.SYS.DotVVMReference\Examples\Views\Example_3_ComboBox.dothtml'/>
+		<TemplateFile Location='LAYOUTS\WSS\WSSC.V4.SYS.DotVVMReference\Examples\Views\Site.dotmaster'/> 
+		<TemplateFile Location='LAYOUTS\WSS\WSSC.V4.SYS.DotVVMReference\Examples\Controls\CustomControl.dotcontrol'/>
+		<TemplateFile Location='LAYOUTS\WSS\WSSC.V4.SYS.DotVVMReference\Examples\Views\Example_5_CustomControl.dothtml'/>
+		<TemplateFile Location='LAYOUTS\WSS\WSSC.V4.SYS.DotVVMReference\Examples\Resource\Example_6_CustomControlServerViewModel.js'/>
+		<TemplateFile Location='LAYOUTS\WSS\WSSC.V4.SYS.DotVVMReference\Examples\Views\Example_6_CustomControlServer.dothtml'/>
+		<TemplateFile Location='LAYOUTS\WSS\WSSC.V4.SYS.DotVVMReference\Examples\Views\Example_7_RenderControl.dothtml'/>
+</TemplateFiles>
+</Solution>

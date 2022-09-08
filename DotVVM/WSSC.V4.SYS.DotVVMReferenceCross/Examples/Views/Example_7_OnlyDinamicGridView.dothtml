@@ -1,0 +1,20 @@
+﻿@viewModel WSSC.V4.SYS.DotVVMReference.Examples.ViewModels.Example_7_DinamicGridView, WSSC.V4.SYS.DotVVMReferenceCross
+ 
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <dot:GridView DataSource="{value: Data}" id="GridView" PostBack.Update="true" RenderSettings.Mode="Server">
+        <Columns>
+            <dot:GridViewTextColumn HeaderText="Id" ValueBinding="{value: Id}" />
+            <dot:GridViewTextColumn HeaderText="Name" ValueBinding="{value: Name}" />
+        </Columns>
+    </dot:GridView> 
+</body>
+</html>
+
+

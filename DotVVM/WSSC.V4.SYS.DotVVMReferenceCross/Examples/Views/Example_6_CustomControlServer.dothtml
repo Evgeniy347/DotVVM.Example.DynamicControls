@@ -1,0 +1,30 @@
+﻿@viewModel WSSC.V4.SYS.DotVVMReference.Examples.ViewModels.Example_6_CustomControlServerViewModel, WSSC.V4.SYS.DotVVMReferenceCross
+@masterPage Examples/Views/Site.dotmaster
+
+<dot:Content ContentPlaceHolderID="MainContent">
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <td colspan="2" style="width: 500px;">
+                6. Сделать аналог контрола БЕЗ ascx-части, то есть аналог наследника класса System.Web.UI.Control. Добавить в контрол регистрацию ресурсов стиля, js-скрипта, текст-бокс и чтение текст-бокса при сабмите.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                func script block
+            </td>
+            <td>
+                <input type="button" onclick="testInvokeBlock()" value="Run">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                func script file
+            </td>
+            <td>
+                <input type="button" onclick="testInvokeFile()" value="Run">
+            </td>
+        </tr>
+    </table>
+</dot:Content>
+

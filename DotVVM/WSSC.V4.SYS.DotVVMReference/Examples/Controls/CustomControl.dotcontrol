@@ -1,0 +1,23 @@
+﻿@viewModel WSSC.V4.SYS.DotVVMReference.Examples.Data.UserInfoData, WSSC.V4.SYS.DotVVMReference,Version=4.0.0.0,Culture=neutral,PublicKeyToken=9f4da00116c38ec5
+@baseType WSSC.V4.SYS.DotVVMReference.Examples.Controls.CustomControl, WSSC.V4.SYS.DotVVMReference,Version=4.0.0.0,Culture=neutral,PublicKeyToken=9f4da00116c38ec5
+
+<div> 
+    <div class="form-group" Validator.Value="{value: ID}">
+        <label class="col-md-4 control-label">ID</label>
+        <div class="col-md-8">
+            <dot:Literal class="form-control" Text="{value: ID}" />
+        </div>
+    </div>
+    <div class="form-group" Validator.Value="{value: Name}">
+        <label class="col-md-4 control-label">Name</label> 
+        <div class="col-md-8">
+            <dot:TextBox class="form-control" Text="{value: Name}" />
+        </div>
+    </div>
+    <div class="form-group" Validator.Value="{value: Email}">
+        <label class="col-md-4 control-label">E-mail Address</label>
+        <div class="col-md-8">
+            <dot:TextBox class="form-control" Text="{value: Email}" />
+        </div>
+    </div>
+</div>

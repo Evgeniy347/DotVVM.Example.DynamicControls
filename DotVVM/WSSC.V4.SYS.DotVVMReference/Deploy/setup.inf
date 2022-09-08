@@ -1,0 +1,57 @@
+;*** BEGIN **********************************************************
+;**                                                                **
+;** Automatically generated on: Fri Sep 02 13:41:32 2022           **
+;**                                                                **
+;** MakeCAB Version: 5.00                                 **
+;**                                                                **
+;*** BEGIN **********************************************************
+[disk list]
+1,Disk 1
+[cabinet list]
+1,1,WSSC.V4.SYS.DotVVMReference.wsp
+[file list]
+1,1,LAYOUTS\WSS\DBF\Types\Types_WSSC.V4.SYS.DotVVMReference.xml,3161
+1,1,WSSC.V4.SYS.DotVVMReference.dll,30720
+1,1,Manifest.xml,4131
+1,1,Antlr3.Runtime.dll,103424
+1,1,Ben.Demystifier.dll,37888
+1,1,DotVVM.Core.dll,31808
+1,1,DotVVM.Framework.dll,2773560
+1,1,DotVVM.Framework.Hosting.Owin.dll,43584
+1,1,EntityFramework.dll,5062304
+1,1,EntityFramework.SqlServer.dll,580768
+1,1,Microsoft.CodeAnalysis.CSharp.dll,4000448
+1,1,Microsoft.CodeAnalysis.dll,1724080
+1,1,Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll,35208
+1,1,Microsoft.Extensions.DependencyInjection.Abstractions.dll,35840
+1,1,Microsoft.Extensions.DependencyInjection.dll,37368
+1,1,Microsoft.Extensions.Options.dll,20480
+1,1,Microsoft.Extensions.Primitives.dll,27648
+1,1,Microsoft.Owin.dll,101032
+1,1,Microsoft.Owin.Host.SystemWeb.dll,133288
+1,1,Microsoft.Owin.Security.dll,53416
+1,1,Newtonsoft.Json.Bson.dll,90112
+1,1,Newtonsoft.Json.dll,664576
+1,1,Owin.dll,4608
+1,1,System.Collections.Immutable.dll,180624
+1,1,System.Linq.dll,24240
+1,1,System.Linq.Expressions.dll,23264
+1,1,System.Reflection.dll,22728
+1,1,System.Reflection.Metadata.dll,451976
+1,1,System.Runtime.dll,29880
+1,1,System.Runtime.Extensions.dll,33000
+1,1,System.ValueTuple.dll,24776
+1,1,LAYOUTS\WSS\WSSC.V4.SYS.DotVVMReference\Examples\Views\Example_1_TestControlPage.dothtml,1635
+1,1,LAYOUTS\WSS\WSSC.V4.SYS.DotVVMReference\Examples\Views\Example_2_TwoButtons.dothtml,1656
+1,1,LAYOUTS\WSS\WSSC.V4.SYS.DotVVMReference\Examples\Views\Example_3_ComboBox.dothtml,2552
+1,1,LAYOUTS\WSS\WSSC.V4.SYS.DotVVMReference\Examples\Views\Site.dotmaster,589
+1,1,LAYOUTS\WSS\WSSC.V4.SYS.DotVVMReference\Examples\Controls\CustomControl.dotcontrol,1111
+1,1,LAYOUTS\WSS\WSSC.V4.SYS.DotVVMReference\Examples\Views\Example_5_CustomControl.dothtml,2394
+1,1,LAYOUTS\WSS\WSSC.V4.SYS.DotVVMReference\Examples\Resource\Example_6_CustomControlServerViewModel.js,63
+1,1,LAYOUTS\WSS\WSSC.V4.SYS.DotVVMReference\Examples\Views\Example_6_CustomControlServer.dothtml,1272
+1,1,LAYOUTS\WSS\WSSC.V4.SYS.DotVVMReference\Examples\Views\Example_7_RenderControl.dothtml,1383
+;*** END ************************************************************
+;**                                                                **
+;** Automatically generated on: Fri Sep 02 13:41:32 2022           **
+;**                                                                **
+;*** END ************************************************************

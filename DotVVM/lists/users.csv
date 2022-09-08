@@ -1,0 +1,4 @@
+ID(int,readonly);Имя пользователя(string);Email(string);Дата рождения(string);Админ(bool);Не актуален(bool)
+1;Иванов;test1@test.ru;05.05.1990;true;false
+2;Смирнов;test2@test.ru;06.05.1991;false;true
+3;Петров;test3@test.ru;07.05.1992;false;true

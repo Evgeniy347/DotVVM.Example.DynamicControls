@@ -1,0 +1,45 @@
+
+namespace WSSC.V4.SYS.DotVVMReference.Controls
+{
+	public enum IconType
+	{
+		Empty,
+		Calendar,
+		ChevronDown,
+		ChevronLeft,
+		ChevronDoubleLeft,
+		ChevronRight,
+		ChevronDoubleRight,
+		ChevronUp,
+		ChevronStart,
+		ChevronEnd,
+		Close,
+		Crop,
+		Filter,
+		Maximize,
+		Minimize,
+		Restore,
+		Minus,
+		Move,
+		Pallete,
+		Plus,
+		Reset,
+		RotateLeft,
+		RotateRight,
+		Star,
+		StarEmpty,
+		StarHalfEmpty,
+		Switch,
+		Time,
+		Times,
+		Trash,
+		ZoomIn,
+		ZoomOut,
+		Check,
+		Radio,
+		Success,
+		Info,
+		Warning,
+		Danger
+	}
+}

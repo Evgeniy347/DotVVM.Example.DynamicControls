@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DotVVM.Utils.HtmlElements</name>
+    </assembly>
+    <members>
+        <member name="T:DotVVM.Utils.HtmlElements.DotvvmCompositeControl">
+            <summary>
+            The base class for DotVVM controls rendering contents from the <see cref="P:DotVVM.Framework.Controls.DotvvmControl.Children"/> collection.
+            </summary>
+        </member>
+        <member name="T:DotVVM.Utils.HtmlElements.DotvvmCompositeHtmlControl">
+            <summary>
+            The base class for HTML controls rendering contents from the <see cref="P:DotVVM.Framework.Controls.DotvvmControl.Children"/> collection.
+            </summary>
+        </member>
+        <member name="P:DotVVM.Utils.HtmlElements.DotvvmCompositeHtmlControl.IsInitiallyVisible">
+            <summary>
+            Gets whether the control is initially visible. If the result is <c>false</c> the control
+            is rendered with the <see cref="P:DotVVM.Utils.HtmlElements.DotvvmCompositeHtmlControl.HiddenCssClass"/> or with <c>display: none;</c> style.
+            </summary>
+        </member>
+        <member name="P:DotVVM.Utils.HtmlElements.DotvvmCompositeHtmlControl.Attributes">
+            <summary>
+            Gets the attributes.
+            </summary>
+        </member>
+        <member name="P:DotVVM.Utils.HtmlElements.DotvvmCompositeHtmlControl.CssClasses">
+            <summary>
+            Gets a property group containing CSS classes.
+            </summary>
+        </member>
+        <member name="P:DotVVM.Utils.HtmlElements.DotvvmCompositeHtmlControl.CssStyles">
+            <summary>
+            Gets a property group containing CSS styles.
+            </summary>
+        </member>
+        <member name="P:DotVVM.Utils.HtmlElements.DotvvmCompositeHtmlControl.Visible">
+            <summary>
+            Gets or sets whether the control is visible.
+            </summary>
+        </member>
+        <member name="P:DotVVM.Utils.HtmlElements.DotvvmCompositeHtmlControl.HiddenCssClass">
+            <summary>
+            Gets the CSS class to render when the <see cref="P:DotVVM.Utils.HtmlElements.DotvvmCompositeHtmlControl.IsInitiallyVisible"/> is false.
+            </summary>
+        </member>
+        <member name="T:DotVVM.Utils.HtmlElements.HtmlElement">
+            <summary>
+            The control that represents a plain HTML element.
+            </summary>
+        </member>
+        <member name="T:DotVVM.Utils.HtmlElements.HtmlFactory">
+            <summary>
+            The factory to build HTML structure of DotVVM controls.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Utils.HtmlElements.HtmlFactory.CreateKoLetComment(System.String,System.String)">
+            <summary>
+            Creates a Knockout binding comment allowing to access a result of the <paramref name="bindingExpression"/>
+            under the given <paramref name="alias"/>. It doesn't create a new Knockout context.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Utils.HtmlElements.HtmlFactory.CreateKoForeachTemplateComment(System.String,System.String,System.Nullable{DotVVM.Utils.HtmlElements.HierarchyRole})">
+            <summary>
+            Creates a Knockout <c>template</c> binding comment duplicating contents for each item in an array
+            returned by the <paramref name="foreachExpression" />.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Utils.HtmlElements.HtmlFactory.CreateKoTemplateComment(System.String,System.String)">
+            <summary>
+            Creates a Knockout binding comment rendering the specified template as its contents.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Utils.HtmlElements.HtmlFactory.CreateLinkButton">
+            <summary>
+            Creates a <c>&lt;div&gt;</c> HTML element acting as button.
+            It shouldn't have a <c>href</c> attribute.
+            </summary>
+        </member>
+        <member name="T:DotVVM.Utils.HtmlElements.HtmlKoComment">
+            <summary>
+            Represents a Knockout data-binding comment.
+            </summary>
+        </member>
+        <member name="T:DotVVM.Utils.HtmlElements.HtmlKoTemplate">
+            <summary>
+            Represents a <c>&lt;script&gt;</c> element rendered as Knockout template.
+            </summary>
+        </member>
+        <member name="P:DotVVM.Utils.HtmlElements.HtmlKoTemplate.Name">
+            <summary>
+            Gets the name of the Knockout template.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Utils.HtmlElements.HtmlWriterExtensions.AddCssStyle(DotVVM.Framework.Controls.IHtmlWriter,System.String,System.String)">
+            <summary>
+            Appends the CSS style to <c>style</c> attribute.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Utils.HtmlElements.HtmlWriterExtensions.AddCssClasses(DotVVM.Framework.Controls.IHtmlWriter,System.String[])">
+            <summary>
+            Appends many CSS classes to <c>class</c> attribute.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Utils.HtmlElements.HtmlWriterExtensions.AddCssClass(DotVVM.Framework.Controls.IHtmlWriter,System.String)">
+            <summary>
+            Appends the CSS class to <c>class</c> attribute.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Utils.HtmlElements.TemplateExtensions.WrapWithKoComment(DotVVM.Framework.Controls.ITemplate,System.String,System.String)">
+            <summary>
+            Wraps the DotVVM template contents with a new Knockout comment.
+            </summary>
+        </member>
+        <member name="T:DotVVM.Utils.HtmlElements.TemplateWrapper">
+            <summary>
+            Wraps an <see cref="T:DotVVM.Framework.Controls.ITemplate" /> to make it easier to render templates inside controls.
+            </summary>
+        </member>
+        <member name="P:DotVVM.Utils.HtmlElements.TemplateWrapper.Template">
+            <summary>
+            Gets the template rendered inside this control.
+            </summary>
+        </member>
+        <member name="P:DotVVM.Utils.HtmlElements.TemplateWrapper.DataItemIndex">
+            <summary>
+            Gets or sets the index of the parent data item.
+            </summary>
+        </member>
+        <member name="T:DotVVM.Utils.HtmlElements.WrapperElement">
+            <summary>
+            The HTML element used to wrap contents inside the <see cref="T:DotVVM.Utils.HtmlElements.DotvvmCompositeControl"/>.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlCollectionExtensions.Add(DotVVM.Framework.Controls.DotvvmControlCollection,DotVVM.Framework.Controls.DotvvmControl[])">
+            <summary>
+            Adds the given DotVVM controls to the collection. 
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlCollectionExtensions.Insert(DotVVM.Framework.Controls.DotvvmControlCollection,System.Int32,DotVVM.Framework.Controls.DotvvmControl[])">
+            <summary>
+            Inserts the given DotVVM controls to the collection at the specified position. 
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlCollectionExtensions.Add(DotVVM.Framework.Controls.DotvvmControlCollection,DotVVM.Framework.Controls.ITemplate)">
+            <summary>
+            Adds DotVVM controls created from the template to the collection. 
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlCollectionExtensions.Insert(DotVVM.Framework.Controls.DotvvmControlCollection,System.Int32,DotVVM.Framework.Controls.ITemplate)">
+            <summary>
+            Inserts DotVVM controls created from the template to the collection at the specified position. 
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlCollectionExtensions.Add(DotVVM.Framework.Controls.DotvvmControlCollection,System.String,System.Boolean)">
+            <summary>
+            Adds a <see cref="T:DotVVM.Framework.Controls.Literal"/> with the given text to the collection. 
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlCollectionExtensions.Insert(DotVVM.Framework.Controls.DotvvmControlCollection,System.Int32,System.String)">
+            <summary>
+            Inserts a <see cref="T:DotVVM.Framework.Controls.Literal"/> with the given text to the collection at the specified position. 
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlExtensions.AddCssStyle(DotVVM.Framework.Controls.IControlWithHtmlAttributes,System.String,System.String)">
+            <summary>
+            Appends the CSS style to <c>style</c> attribute.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlExtensions.AddKoDataBinding(DotVVM.Framework.Controls.IControlWithHtmlAttributes,System.String,DotVVM.Framework.Controls.DotvvmBindableObject,DotVVM.Framework.Binding.DotvvmProperty,System.Action)">
+            <summary>
+            Adds a Knockout binding bound to a binding retrieved from the <paramref name="property" />
+            of the <paramref name="target"/> control.
+            </summary>
+            <param name="nullBindingAction">
+            The action called when the <paramref name="property" /> doesn't contain a binding.
+            </param>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlExtensions.AddKoDataBinding(DotVVM.Framework.Binding.VirtualPropertyGroupDictionary{System.Object},System.String,DotVVM.Framework.Controls.KnockoutBindingGroup)">
+            <summary>
+            Adds a Knockout binding bound to an object built from the <paramref name="bindingGroup"/>.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlExtensions.AddKoDataBinding(DotVVM.Framework.Binding.VirtualPropertyGroupDictionary{System.Object},System.String,System.String)">
+            <summary>
+            Adds a Knockout binding bound to the <paramref name="bindingExpression"/>.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlExtensions.AddKoTemplateDataBinding(DotVVM.Framework.Controls.IControlWithHtmlAttributes,System.String,System.String)">
+            <summary>
+            Adds a Knockout <c>template</c> binding rendering the specified template as element's contents.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlExtensions.WrapWithKoComment(DotVVM.Framework.Controls.DotvvmControl,System.String,System.String)">
+            <summary>
+            Wraps the DotVVM control with a new Knockout comment.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlExtensions.SetValueRaw``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            Sets the value or binding to the specified property.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlExtensions.GetValueRaw``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Boolean)">
+            <summary>
+            Gets a value or binding from the specified property.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlExtensions.CanGetValue(DotVVM.Framework.Controls.DotvvmBindableObject,DotVVM.Framework.Binding.DotvvmProperty)">
+            <summary>
+            Returns whether it's safe to get a value of the <paramref name="property"/>.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlExtensions.GetValueOrDefault(DotVVM.Framework.Controls.DotvvmBindableObject,DotVVM.Framework.Binding.DotvvmProperty,System.Boolean)">
+            <summary>
+            Returns a value of the <paramref name="property"/>. Or a default value when
+            the current value is <c>null</c>.
+            </summary>
+            <param name="inherit">Indicates whether to return inherited values.</param>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlExtensions.GetValueType(DotVVM.Framework.Controls.DotvvmBindableObject,DotVVM.Framework.Binding.DotvvmProperty)">
+            <summary>
+            Returns the type of the value stored in the given property. This might not be
+            equal to the <see cref="P:DotVVM.Framework.Binding.DotvvmProperty.PropertyType"/>.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlExtensions.GetAncestorOfType``1(DotVVM.Framework.Controls.DotvvmBindableObject)">
+            <summary>
+            Returns the first ancestor of type <typeparamref name="T"/> or <c>null</c>.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlExtensions.HasAncestorOfType``1(DotVVM.Framework.Controls.DotvvmBindableObject)">
+            <summary>
+            Returns whether the control has an ancestor of type <typeparamref name="T"/>.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlExtensions.EvaluateDataContext(DotVVM.Framework.Controls.DotvvmBindableObject,DotVVM.Framework.Controls.DotvvmBindableObject)">
+            <summary>
+            Evaluates the DataContext property of the <see cref="!:target"/> in context of this control.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlExtensions.EvaluateItemBinding``1(DotVVM.Framework.Controls.DotvvmBindableObject,DotVVM.Framework.Binding.Expressions.IValueBinding{``0},DotVVM.Framework.Binding.DotvvmProperty,System.Object)">
+            <summary>
+            Evaluates the given value binding in context of the data source item.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlExtensions.EvaluateItemBinding(DotVVM.Framework.Controls.DotvvmBindableObject,DotVVM.Framework.Binding.Expressions.ICommandBinding,DotVVM.Framework.Binding.DotvvmProperty,System.Object,System.Func{System.Type,System.Object}[])">
+            <summary>
+            Evaluates the given command binding in context of the data source item.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlExtensions.GetItemContextType(DotVVM.Framework.Controls.DotvvmBindableObject,DotVVM.Framework.Binding.DotvvmProperty)">
+            <summary>
+            Returns a <see cref="T:DotVVM.Framework.Compilation.ControlTree.DataContextStack"/> for an item of the <paramref name="dataSourceProperty"/>.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlExtensions.HasCorrectDataContext(DotVVM.Framework.Controls.DotvvmBindableObject)">
+            <summary>
+            Returns whether the control has correct data context by comparing values of the
+            DataContext and the DataContextType properties.
+            </summary>
+        </member>
+        <member name="M:DotVVM.Framework.Controls.DotvvmControlExtensions.SetDataContextTypeFromDataSource(DotVVM.Framework.Controls.DotvvmBindableObject,DotVVM.Framework.Binding.Expressions.IBinding,DotVVM.Framework.Compilation.ControlTree.DataContextStack)">
+            <summary>
+            Sets the <see cref="T:DotVVM.Framework.Compilation.ControlTree.DataContextStack"/> to type corresponding to the type of the data source item.
+            </summary>
+        </member>
+        <member name="F:DotVVM.Framework.Controls.HelperProperties.StyleExpressionProperty">
+            <summary> Renders data-bind="style: {value}". Value may be a string JS expression or a IValueBinding. </summary>
+        </member>
+        <member name="F:DotVVM.Framework.Controls.HelperProperties.CheckedArrayContainsObservablesExpressionProperty">
+            <summary> Renders data-bind="checkedArrayContainsObservables: {value}". Value may be a string JS expression or a IValueBinding. </summary>
+        </member>
+        <member name="F:DotVVM.Framework.Controls.HelperProperties.DotvvmCheckboxUpdateAfterPostbackExpressionProperty">
+            <summary> Renders data-bind="dotvvm-checkbox-updateAfterPostback: {value}". Value may be a string JS expression or a IValueBinding. </summary>
+        </member>
+        <member name="F:DotVVM.Framework.Controls.HelperProperties.DotvvmCheckedPointerExpressionProperty">
+            <summary> Renders data-bind="dotvvm-checked-pointer: {value}". Value may be a string JS expression or a IValueBinding. </summary>
+        </member>
+        <member name="F:DotVVM.Framework.Controls.HelperProperties.CheckedValueComparerExpressionProperty">
+            <summary> Renders data-bind="checkedValueComparer: {value}". Value may be a string JS expression or a IValueBinding. </summary>
+        </member>
+        <member name="F:DotVVM.Framework.Controls.HelperProperties.ValueExpressionProperty">
+            <summary> Renders data-bind="value: {value}". Value may be a string JS expression or a IValueBinding. </summary>
+        </member>
+        <member name="F:DotVVM.Framework.Controls.HelperProperties.CheckedValueProperty">
+            <summary> Renders data-bind="checkedValue: {value}". Value may be IValueBinding or an object which will JSON serialized. </summary>
+        </member>
+        <member name="F:DotVVM.Framework.Controls.HelperProperties.CheckedProperty">
+            <summary> Renders data-bind="checked: {value}". Value may be IValueBinding or an object which will JSON serialized. </summary>
+        </member>
+        <member name="M:DotVVM.BusinessPack.Controls.PropertyGroupExtensions.Add``1(DotVVM.Framework.Binding.VirtualPropertyGroupDictionary{``0},System.String,DotVVM.Framework.Controls.DotvvmBindableObject,DotVVM.Framework.Binding.DotvvmProperty)">
+            <summary>
+            Adds a value retrieved from the <paramref name="property"/> of the <see cref="!:target"/> control.
+            </summary>
+        </member>
+        <member name="M:DotVVM.BusinessPack.Controls.PropertyGroupExtensions.AddNegated(DotVVM.Framework.Binding.VirtualPropertyGroupDictionary{System.Boolean},System.String,DotVVM.Framework.Controls.DotvvmBindableObject,DotVVM.Framework.Binding.DotvvmProperty)">
+            <summary>
+            Adds a negated value retrieved from the <paramref name="property"/> of the <see cref="!:target"/> control.
+            </summary>
+        </member>
+        <member name="M:DotVVM.BusinessPack.Controls.PropertyGroupExtensions.CopyRawValuesFrom``1(DotVVM.Framework.Binding.VirtualPropertyGroupDictionary{``0},DotVVM.Framework.Binding.VirtualPropertyGroupDictionary{``0})">
+            <summary>
+            Copies values and bindings from the <paramref name="sourceGroup"/> to this group.
+            </summary>
+        </member>
+    </members>
+</doc>

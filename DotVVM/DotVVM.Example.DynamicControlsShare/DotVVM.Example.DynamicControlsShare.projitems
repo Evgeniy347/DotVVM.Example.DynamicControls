@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>2d34b882-7a67-4de3-baea-e9f4dd0cedad</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>DotVVM.Example.DynamicControlsShare</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Examples\Controls\CustomControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Examples\Controls\DocumentFieldsGrid.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Examples\Controls\FieldTextControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Examples\Data\UserInfoData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Examples\DotvvmStartup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Examples\Model\CustomControlModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Examples\Model\DocumentAdapter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Examples\Model\IDocumentFields.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Examples\ViewModels\EditForm.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Examples\ViewModels\Example_1_TestControlPageViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Examples\ViewModels\Example_2_TwoButtonsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Examples\ViewModels\Example_3_ComboBoxViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Examples\ViewModels\Example_5_CustomControlViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Examples\ViewModels\Example_6_CustomControlServerViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Examples\ViewModels\Example_7_DinamicGridView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Examples\ViewModels\Example_7_RenderControlViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Examples\ViewModels\SiteViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\DotvvmControlExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Examples\Controls\CustomControl.dotcontrol" />
+    <Content Include="$(MSBuildThisFileDirectory)Examples\Controls\DocumentFieldsGrid.dotcontrol" />
+    <Content Include="$(MSBuildThisFileDirectory)Examples\DropDownList.dotcontrol" />
+    <Content Include="$(MSBuildThisFileDirectory)Examples\Resource\Example_6_CustomControlServerViewModel.js" />
+    <Content Include="$(MSBuildThisFileDirectory)Examples\Views\EditForm.dothtml" />
+    <Content Include="$(MSBuildThisFileDirectory)Examples\Views\Example_1_TestControlPage.dothtml" />
+    <Content Include="$(MSBuildThisFileDirectory)Examples\Views\Example_2_TwoButtons.dothtml" />
+    <Content Include="$(MSBuildThisFileDirectory)Examples\Views\Example_3_ComboBox.dothtml" />
+    <Content Include="$(MSBuildThisFileDirectory)Examples\Views\Example_5_CustomControl.dothtml" />
+    <Content Include="$(MSBuildThisFileDirectory)Examples\Views\Example_6_CustomControlServer.dothtml" />
+    <Content Include="$(MSBuildThisFileDirectory)Examples\Views\Example_7_DinamicGridView.dothtml" />
+    <Content Include="$(MSBuildThisFileDirectory)Examples\Views\Example_7_OnlyDinamicGridView.dothtml" />
+    <Content Include="$(MSBuildThisFileDirectory)Examples\Views\Example_7_RenderControl.dothtml" />
+    <Content Include="$(MSBuildThisFileDirectory)Examples\Views\SimpleSubmit.dothtml" />
+    <Content Include="$(MSBuildThisFileDirectory)Examples\Views\Site.dotmaster" />
+  </ItemGroup>
+</Project>

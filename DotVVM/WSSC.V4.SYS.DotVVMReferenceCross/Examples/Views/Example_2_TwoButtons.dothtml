@@ -1,0 +1,43 @@
+﻿@viewModel WSSC.V4.SYS.DotVVMReference.Examples.ViewModels.Example_2_TwoButtonsViewModel, WSSC.V4.SYS.DotVVMReferenceCross
+@masterPage Examples/Views/Site.dotmaster
+
+<dot:Content ContentPlaceHolderID="MainContent"> 
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <td colspan="3" style="width: 500px;">
+                2. Реализовать страницу с 2мя текст-боксами и 2мя submit-кнопками, при сабмите 1й кнопке на странице должен появиться div с текстом из 1го текст-бокса, при сабмите 2й кнопки - div с текстом из второго текст-бокса.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                TextValue
+            </td>
+            <td>
+                <dot:TextBox Text="{value: TextValue1}" />
+            </td>
+            <td>
+                <dot:TextBox Text="{value: TextValue2}" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Button
+            </td>
+            <td>
+                <dot:Button Click="{command: Click1()}" Text="Button1" />
+            </td>
+            <td>
+                <dot:Button Click="{command: Click2()}" Text="Button2" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Literal
+            </td>
+            <td colspan="2">
+                <dot:Literal Text="{value: LiteralText}" />
+            </td>
+        </tr>
+    </table>
+</dot:Content>
+
